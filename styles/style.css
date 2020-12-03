@@ -81,7 +81,7 @@ h4.banner-block__item-title{margin-bottom: 15px; font-size: 24px;}
 
 /*Форма*/
 .calculate-form{position: relative; box-sizing: border-box; padding: 50px; background-color: #edf0f3;}
-.calculate-form h2.title{color: #b41818;}
+.calculate-form h2.title{color: #b41818; margin-bottom: 40px;}
 
 .calculate-links{position: relative; margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: space-evenly;}
 .calculate-links .btn{margin: 5px;}

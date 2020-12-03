@@ -38,3 +38,12 @@ $('.js-video-slider').owlCarousel({
         }
     }
 });
+
+let countBtn = document.querySelector('.js-count-form-button');
+let countForm = document.querySelector('.js-count-form');
+console.log(countBtn);
+console.log(countForm);
+
+countBtn.addEventListener('click', ()=>{
+    countForm.classList.toggle('is-active');
+})

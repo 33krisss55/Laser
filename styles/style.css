@@ -1,4 +1,7 @@
-/*Перебитые*/
+.question_frame{opacity: 0; display: none; z-index: -1; margin-left: -250px;}
+.question_frame.is-active{display: block; opacity: 1; z-index: 3000;}
+
+    /*Перебитые*/
 .btn{border-radius: 4px !important; transition: all .2s ease !important;}
 
 .btn.btn-default{margin: 0;}
@@ -103,7 +106,10 @@ p.about-block__item-text{margin: 0;}
 .examples-slider__item{position: relative; padding-bottom: 56.25%; height: 0; margin: 0 auto; overflow: hidden;}
 .examples-slider__item iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-width: 0; outline-width: 0;}
 
-
+/*Прикрепление файла*/
+.attach-file__input{opacity: 0; visibility: visible; position: absolute;}
+.attach-file__button{position: relative; display: flex; align-items: center; cursor: pointer;}
+.attach-file__img{width: 15px; margin-right: 5px;}
 
 @media screen and (max-width: 1024px){
     .banner-block{padding: 50px;}
@@ -129,6 +135,12 @@ p.about-block__item-text{margin: 0;}
     .calculate-form{padding: 25px;}
     .advantages__img-border{width: 260px;}
     .values__item{font-size: 16px;}
+
+    .form .form-group{margin-bottom: 15px;}
+    .form-control{height: auto;}
+    .form .form-header{padding: 25px 15px 0;}
+    .form.popup .form-header .text{padding: 0!important; text-align: center;}
+    .form .form-header .title{margin-bottom: 0;}
 }
 
 @media screen and (max-width: 600px){
@@ -141,6 +153,8 @@ p.about-block__item-text{margin: 0;}
     .about-block__item{width: 100%; margin-bottom: 15px;}
     .values__item{font-size: 14px;}
     .values__item-content{padding-left: 10px;}
+
+    .question_frame{left: 0; width: 100%; margin-left: 0;}
 }
 
 @media screen and (max-width: 425px){

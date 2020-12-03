@@ -1,8 +1,8 @@
+/*Перебитые*/
+.btn{border-radius: 4px !important; transition: all .2s ease !important;}
+.portfolio.front .top_wrapper_block{padding-bottom: 0;}
 .question_frame{opacity: 0; display: none; z-index: -1; margin-left: -250px;}
 .question_frame.is-active{display: block; opacity: 1; z-index: 3000;}
-
-    /*Перебитые*/
-.btn{border-radius: 4px !important; transition: all .2s ease !important;}
 
 .btn.btn-default{margin: 0;}
 .btn.fix{max-width: 250px; width: 100%; margin: 0 auto; display: block;}
@@ -12,7 +12,7 @@
 .drag-block.container.home-section{border: none; margin: 30px 0; color: #222222;}
 .drag-block.container.home-section.home-section_map{margin-bottom: 0;}
 .home-section img{border: none; outline: none;}
-.home-section h2.title{margin: 0 0 40px; font-weight: normal; text-align: center; text-transform: uppercase; line-height: 1.3;}
+.home-section h2.title{margin: 0 0 60px; font-weight: normal; text-align: center; text-transform: uppercase; line-height: 1.3;}
 
 /*Карусель*/
 .owl-carousel{position:relative;}
@@ -57,6 +57,7 @@ h4.banner-block__item-title{margin-bottom: 15px; font-size: 24px;}
 .info-block__item{width: calc(33.33% - 10px); background-color: #edf0f3; display: flex; flex-direction: column; box-sizing: border-box; padding: 25px; justify-content: space-between;}
 
 /*Преимущества*/
+.drag-block.container.home-section.home-section_advantages{margin-bottom: 5px;}
 .values{position: relative; display: flex; justify-content: center; flex-wrap: wrap;}
 .values__item{position: relative; font-weight: bold; font-size: 20px; margin-bottom: 30px; width: 33.33%; padding: 0 10px; display: flex; justify-content: center;}
 .values__item-content{position: relative; padding-left: 15px;}
@@ -86,6 +87,7 @@ h4.banner-block__item-title{margin-bottom: 15px; font-size: 24px;}
 .calculate-links .btn{margin: 5px;}
 
 /*Продукты*/
+.drag-block.container.home-section.home-section_products{margin-bottom: 10px;}
 .home-section_products .img_block_contain{background-size: 80%;}
 .home-section_products .float-banners.v1 .item{background-color: #edf0f3;}
 

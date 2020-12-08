@@ -81,7 +81,7 @@ h4.banner-block__item-title{margin-bottom: 15px; font-size: 24px;}
 
 /*Форма*/
 .calculate-form{position: relative; box-sizing: border-box; padding: 50px; background-color: #edf0f3;}
-.calculate-form h2.title{color: #b41818; margin-bottom: 40px;}
+.calculate-form h2.title{color: #b41818; margin-bottom: -20px; background-color: #edf0f3; position: relative;}
 
 .calculate-links{position: relative; margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: space-evenly;}
 .calculate-links .btn{margin: 5px;}
@@ -116,7 +116,7 @@ p.about-block__item-text{margin: 0;}
     .info-block__item{width: 100%; flex-direction: row; align-items: flex-start;}
     .info-block__item .btn.fix{margin: 0; margin-left: 15px;}
     .info-block__item + .info-block__item{margin-top: 15px;}
-    .header__contacts-phone{margin: 0 20px;}
+    .header__contacts-phone{margin: 0 10px;}
     .advantages__img-border{width: 130px;}
 }
 
@@ -140,6 +140,7 @@ p.about-block__item-text{margin: 0;}
     .form .form-header{padding: 25px 15px 0;}
     .form.popup .form-header .text{padding: 0!important; text-align: center;}
     .form .form-header .title{margin-bottom: 0;}
+    .calculate-form h2.title{margin-bottom: -20px;}
 }
 
 @media screen and (max-width: 600px){
@@ -154,6 +155,10 @@ p.about-block__item-text{margin: 0;}
     .values__item-content{padding-left: 10px;}
 
     .question_frame{left: 0; width: 100%; margin-left: 0;}
+}
+
+@media screen and (max-width: 550px){
+    .calculate-form h2.title{margin-bottom: -20px;}
 }
 
 @media screen and (max-width: 425px){
